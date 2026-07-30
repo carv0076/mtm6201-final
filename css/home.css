@@ -55,3 +55,8 @@ table {
     --ink: #2b2b2b;
     --muted: #6b7280;
   }
+
+.navbar-brand img {
+	height: 7rem;
+	width: auto;
+}
