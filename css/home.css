@@ -56,6 +56,11 @@ table {
     --muted: #6b7280;
   }
 
+  h2 {
+    color: var(--ink);
+    font-weight: bold;
+  }
+
 .hero {
     position: relative;
     width: 100%;
@@ -93,4 +98,83 @@ table {
 
 .search-bar {
     flex: 1;
+}
+
+.testimonial-card {
+    border: 2px solid var(--muted);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.testimonial-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+.testimonial-text {
+    padding: 20px;
+    margin: 0;
+}
+
+.check-badge {
+    background-color: var(--orange);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donations {
+    background-color: var(--teal);
+}
+
+.donations img {
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.donations-text {
+    color: white;
+    padding-top: 1rem;
+}
+
+a.btn-adopt {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+    border-radius: 1.5rem;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+a.btn-adopt:hover {
+    background-color: transparent;
+    color: black;
+    border-color: var(--orange);
+}
+
+.brand-logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.social-icon {
+    color: var(--teal);
 }
