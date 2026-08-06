@@ -99,7 +99,6 @@ a.btn-adopt {
 
 a.btn-adopt:hover {
     background-color: transparent;
-    color: black;
     border-color: var(--orange);
 }
 
