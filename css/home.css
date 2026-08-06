@@ -56,10 +56,52 @@ table {
     --muted: #6b7280;
   }
 
-  h2 {
+h2 {
     color: var(--ink);
     font-weight: bold;
-  }
+}
+
+.navbar {
+    background-color: var(--teal);
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: var(--orange);
+}
+
+a.btn-login {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+a.btn-login:hover {
+    background-color: transparent;
+    color: var(--orange);
+    border-color: var(--orange);
+}
+
+a.btn-adopt {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+    border-radius: 1.5rem;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+a.btn-adopt:hover {
+    background-color: transparent;
+    color: black;
+    border-color: var(--orange);
+}
 
 .hero {
     position: relative;
@@ -98,6 +140,15 @@ table {
 
 .search-bar {
     flex: 1;
+}
+
+.learn-more {
+    color: var(--ink);
+    transition: color 0.3s ease;
+}
+
+.learn-more:hover {
+    color: var(--orange-dark);
 }
 
 .testimonial-card {
@@ -146,7 +197,7 @@ table {
     padding-top: 1rem;
 }
 
-a.btn-adopt {
+a.btn-donations {
     background-color: var(--orange);
     color: white;
     border: 2px solid var(--orange);
@@ -155,10 +206,18 @@ a.btn-adopt {
     transition: all 0.3s ease;
 }
 
-a.btn-adopt:hover {
+a.btn-donations:hover {
     background-color: transparent;
-    color: black;
+    color: white;
     border-color: var(--orange);
+}
+
+footer a.nav-link {
+    color: var(--ink);
+}
+
+footer a.nav-link:hover {
+    color: var(--orange) ;
 }
 
 .brand-logo {
