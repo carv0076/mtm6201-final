@@ -97,6 +97,14 @@ a.btn-adopt:hover {
     border-color: var(--orange);
 }
 
+.page-header {
+    margin-top: 2rem;
+}
+
+.page-header h1 {
+    font-weight: bold;
+}
+
 footer a.nav-link {
     color: var(--ink);
 }
