@@ -220,9 +220,33 @@ h2.hero-text {
     line-height: 22px;
 }
 
+.adoption-info {
+    background-color: var(--orange);
+    padding: 4.5rem 0;
+}
+
+.adoption-info img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+a.btn-learn {
+    background-color: var(--teal);
+    color: white;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+a.btn-learn:hover {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
 .learn-more {
     color: var(--ink);
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .learn-more:hover {
