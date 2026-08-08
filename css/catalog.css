@@ -105,6 +105,23 @@ a.btn-adopt:hover {
     font-weight: bold;
 }
 
+.filter-circle {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.filter-circle img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    object-fit: contain;
+}
+
 footer a.nav-link {
     color: var(--ink);
 }
