@@ -106,18 +106,17 @@ a.btn-adopt:hover {
 }
 
 .filter-circle {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
 }
 
 .filter-circle img {
-    width: 250px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
     display: block;
     object-fit: contain;
 }
