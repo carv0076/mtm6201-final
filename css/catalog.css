@@ -94,6 +94,7 @@ a.btn-adopt {
 
 a.btn-adopt:hover {
     background-color: transparent;
+    color: white;
     border-color: var(--orange);
 }
 
@@ -119,6 +120,88 @@ a.btn-adopt:hover {
     height: 50px;
     display: block;
     object-fit: contain;
+}
+
+.search-filter-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.catalog-section { 
+    padding-bottom: 3rem; 
+}
+
+.pet-card {
+    background: white;
+    border: 1px solid var(--muted);
+    border-radius: 1.25rem;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-4px);
+}
+
+.pet-img { 
+    width: 100%; height: 250px; object-fit: cover; 
+}
+
+.learn-more { 
+    color: var(--muted); 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.learn-more i { 
+    transition: transform 0.2s ease; 
+}
+
+.learn-more:hover i { 
+    transform: translateX(4px); 
+}
+
+.learn-more:hover { 
+    color: var(--orange); 
+}
+
+a.btn-view-more {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+    border-radius: 1.5rem;
+    padding: 10px 24px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a.btn-view-more:hover {
+    background-color: transparent;
+    border-color: var(--orange);
+}
+
+ .pagination-wrap { 
+    padding-bottom: 4.5rem; 
+}
+
+.page-num {
+    color: #9691ad;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.page-num.active { 
+    color: var(--orange); 
+    text-decoration: none; 
+}
+
+.page-num:hover { 
+    color: var(--orange-dark); 
+}
+
+.page-num-ellipsis { 
+    color: var(--muted); 
 }
 
 footer a.nav-link {
