@@ -175,7 +175,7 @@ h2.hero-text {
 }
 
 .newsletter-row {
-    border-bottom: 1.5px solid rgba(255,255,255,0.4);
+    border-bottom: 1.5px solid var(--muted);
 }
 
 .btn-subscribe {
