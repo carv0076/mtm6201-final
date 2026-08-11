@@ -212,6 +212,16 @@ a.btn-donations:hover {
     border-color: var(--orange);
 }
 
+.back-to-top {
+    color: var(--teal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    color: var(--orange);
+}
+
 footer a.nav-link {
     color: var(--ink);
 }

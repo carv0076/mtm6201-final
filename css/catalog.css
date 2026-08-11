@@ -327,6 +327,16 @@ a.btn-view-more:hover {
     font-weight: bold;
 }
 
+.back-to-top {
+    color: var(--teal);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    color: var(--orange);
+}
+
 footer a.nav-link {
     color: var(--ink);
 }
