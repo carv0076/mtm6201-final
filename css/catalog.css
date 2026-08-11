@@ -299,6 +299,34 @@ a.btn-view-more:hover {
     line-height: 22px;
 }
 
+.stats-section {
+    padding: 5rem 0;
+}
+
+.stats-title {
+    font-weight: bold;
+}
+
+.stat-feature {
+    background-color: var(--teal);
+    border-radius: 1.5rem;
+}
+
+.stat-feature h2 {
+    font-weight: bold;
+}
+
+.stat-card {
+    border: 1px solid var(--ink);
+    border-radius: 1.25rem;
+    padding: 1.75rem;
+}
+
+.stat-number {
+    color: var(--orange);
+    font-weight: bold;
+}
+
 footer a.nav-link {
     color: var(--ink);
 }
